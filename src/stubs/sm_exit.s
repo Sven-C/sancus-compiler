@@ -34,7 +34,7 @@ __sm_exit:
     clr r15
 1:
     ; atomic leaving of sm
-    dint
+    ;dint
     ; store sp
     mov r1, &__sm_sp
 

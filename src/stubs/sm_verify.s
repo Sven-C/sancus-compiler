@@ -13,7 +13,7 @@ __sm_verify:
 
     ; we have a stored ID, check if it  matches with the SM
     ; disable interrupt to do this atomically
-    dint
+    ;dint
     mov r14, r15
     .word 0x1386
     cmp r12, r15
